@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythonProject1"
+version = "0.1.0"
+description = ""
+authors = ["Turristas <tur.ristas@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+telebot = "^0.0.5"
+config = "^0.5.1"
+pytest = "^7.4.3"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
